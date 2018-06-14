@@ -5,8 +5,8 @@
 ```
     //APIなどから返却されたエラーコード
     let retuncode = "1001"
-        
-   guard let error = STVError(rawValue: retuncode) else {
+
+    guard let error = STVError(rawValue: retuncode) else {
         fatalError("不正なエラーコード")
     }
     error.showAlertDialogOK(self) { _ in
