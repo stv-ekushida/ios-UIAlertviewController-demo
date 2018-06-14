@@ -13,6 +13,7 @@
 		C501575820D1FEFE00C48037 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C501575720D1FEFE00C48037 /* Assets.xcassets */; };
 		C501575B20D1FEFE00C48037 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C501575920D1FEFE00C48037 /* LaunchScreen.storyboard */; };
 		C501576620D1FEFE00C48037 /* ios_UIAlertviewController_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501576520D1FEFE00C48037 /* ios_UIAlertviewController_demoTests.swift */; };
+		C501577120D1FF0E00C48037 /* STVError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C501577020D1FF0E00C48037 /* STVError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C501576120D1FEFE00C48037 /* ios-UIAlertviewController-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-UIAlertviewController-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C501576520D1FEFE00C48037 /* ios_UIAlertviewController_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_UIAlertviewController_demoTests.swift; sourceTree = "<group>"; };
 		C501576720D1FEFE00C48037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C501577020D1FF0E00C48037 /* STVError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STVError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +79,9 @@
 		C501574F20D1FEFD00C48037 /* ios-UIAlertviewController-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C501577320D204E900C48037 /* Models */,
+				C501577220D204DE00C48037 /* Controllers */,
 				C501575020D1FEFD00C48037 /* AppDelegate.swift */,
-				C501575220D1FEFD00C48037 /* ViewController.swift */,
-				C501575420D1FEFD00C48037 /* Main.storyboard */,
 				C501575720D1FEFE00C48037 /* Assets.xcassets */,
 				C501575920D1FEFE00C48037 /* LaunchScreen.storyboard */,
 				C501575C20D1FEFE00C48037 /* Info.plist */,
@@ -94,6 +96,23 @@
 				C501576720D1FEFE00C48037 /* Info.plist */,
 			);
 			path = "ios-UIAlertviewController-demoTests";
+			sourceTree = "<group>";
+		};
+		C501577220D204DE00C48037 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C501575220D1FEFD00C48037 /* ViewController.swift */,
+				C501575420D1FEFD00C48037 /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C501577320D204E900C48037 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C501577020D1FF0E00C48037 /* STVError.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C501577120D1FF0E00C48037 /* STVError.swift in Sources */,
 				C501575320D1FEFD00C48037 /* ViewController.swift in Sources */,
 				C501575120D1FEFD00C48037 /* AppDelegate.swift in Sources */,
 			);
